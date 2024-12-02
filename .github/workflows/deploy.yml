@@ -25,6 +25,7 @@ jobs:
 
       - name: Run Django migrations
         run: |
+          cd mierpti1a
           python manage.py migrate
 
       - name: Collect static files
